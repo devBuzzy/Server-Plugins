@@ -1,0 +1,15 @@
+notice:
+ show: true
+ prefix: "&cNOTICE: &7"
+ messages:
+  one: "This is a first notice!"
+  two: "This is a second one!"
+  three: "This is a third one!"
+  four: "This is a fourth notice!"
+ logon:
+  show: false
+  random: true
+  noticeNumber: 0
+
+buildmything:
+ maxRandomPlayers: 25

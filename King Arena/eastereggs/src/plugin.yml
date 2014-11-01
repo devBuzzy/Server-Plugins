@@ -1,0 +1,37 @@
+name: EasterEggs
+main: me.thenameman.eastereggs.EasterEggs
+version: 1.0.0
+author: TheNameMan
+description: Some random easter eggs for the King Arena server
+commands:
+ boshy:
+  description: Easter egg!
+  permission: easteregg.boshy
+  permission-message: Sorry, but you cannot use this easter egg.
+ pokemon:
+  description: Easter egg!
+  permission: easteregg.pokemon
+  permission-message: Sorry, but you cannot use this easter egg.
+ villager:
+  description: Easter egg!
+  permission: easteregg.villager
+  permission-message: Sorry, but you cannot use this easter egg.
+ lag:
+  description: Easter egg!
+  permission: easteregg.lag
+  permission-message: Sorry, but you cannot use this easter egg.
+ ads:
+  description: Easter egg!
+  permission: easteregg.ads
+  permission-message: Sorry, but you cannot use this easter egg.
+ console:
+  description: Easter egg!
+  permission: easteregg.console
+  permission-message: Sorry, but you cannot use this easter egg.
+permissions:
+ eastereggs.*:
+  easteregg.villager: true
+  easteregg.pokemon: true
+  easteregg.boshy: true
+  easteregg.lag: true
+  easteregg.ads: true

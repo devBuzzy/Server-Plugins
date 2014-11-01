@@ -1,0 +1,113 @@
+name: KingArena
+main: me.thenameman.announce.Announce
+version: 1.2.2
+author: TheNameMan
+description: A Bukkit plugin made for the King Arena server.
+commands:
+ announce:
+  description: Announces a message to the entire server.
+  permission: kingarena.announce
+ broadcast:
+  description: Announces a message to the entire server.
+  permission: kingarena.announce
+ shout:
+  description: Yells a message to the server, with your in game name.
+  permission: kingarena.shout
+ cc:
+  description: Clears chat.
+  permission: kingarena.clear
+ clearchat:
+  description: Clears chat.
+  permission: kingarena.clear
+ ccmy:
+  description: Clear your own chat.
+  permission: kingarena.clearmy
+ clearmychat:
+  description: Clear your own chat.
+  permission: kingarena.clearmy
+ stream:
+  description: Announces a stream link. If you are not the streamer, use /announce instead, that is my recommendation.
+  permission: kingarena.stream
+ rules:
+  description: Describes the server rules.
+ asay:
+  description: Administrator version of a custom /say
+  permission: kingarena.adminsay
+ msay:
+  description: Moderator version of a custom /say
+  permission: kingarena.modsay
+ csay:
+  description: Console version of /say.
+ say:
+  description: Shows the custom versions of /say.
+  permission: kingarena.say
+ potato:
+  description: POTATOES FOR EVERYONE!
+  permission: kingarena.potato
+ sc:
+  description: Staff chat.
+  permission: kingarena.staffchat
+ staffchat:
+  description: Staff chat.
+  permission: kingarena.staffchat
+ heal:
+  description: Fully heals the player.
+  permission: kingarena.heal
+ kill:
+  description: Kills a player.
+  permission: kingarena.kill
+ feed:
+  description: Feeds a player.
+  permission: kingarena.feed
+ repair:
+  description: Repairs the tool in hand, or of another player.
+  permission: kingarena.repair
+ durability:
+  description: Technical command to check the durability of the item in hand.
+  permission: kingarena.durability
+ dura:
+  description: Technical command to check the durability of the item in hand.
+  permission: kingarena.durability
+ test-break:
+  description: Almost breaks the item in the hand. Only works with damagable items. Dev Command
+  permission: kingarena.dev.test-break
+ damage:
+  description: Work-in-progress command. DO NOT TOUCH!
+  permission: kingarena.damage.toggle
+ fw:
+  description: Set off a firework!
+  permission: kingarena.fw
+permissions:
+ kingarena.*:
+  kingarena.announce: true
+  kingarena.shout: true
+  kingarena.clear: true
+  kingarena.clearmy: true
+  kingarena.stream: true
+  kingarena.staffchat: true
+  kingarena.heal: true
+  kingarena.kill: true
+  kingarena.adminsay: true
+  kingarena.modsay: true
+  kingarena.feed: true
+ kingarena.dev:
+  kingarena.dev.durability: true
+  kingarena.announce: true
+  kingarena.shout: true
+  kingarena.clear: true
+  kingarena.clearmy: true
+  kingarena.stream: true
+  kingarena.staffchat: true
+  kingarena.heal: true
+  kingarena.kill: true
+  kingarena.adminsay: true
+  kingarena.modsay: true
+  kingarena.feed: true
+ kingarena.mod:
+  kingarena.shout: true
+  kingarena.stream: true
+  kingarena.staffchat: true
+  kingarena.modsay: true
+  kingarena.feed: true
+ kingarena.user:
+  kingarena.clearmy: true

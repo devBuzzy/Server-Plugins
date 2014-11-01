@@ -1,0 +1,45 @@
+main: me.zerocraft.main.ZeroCraft
+name: ZeroCraft
+version: 3.0.6
+author: TheNameMan
+description: §9Custom plugin for the ZeroCraft server.
+commands:
+ firework:
+  aliases: [fw]
+  description: Fireworks!
+  usage: /firework
+ warn:
+  description: Warn a player. Simple.
+  usage: /warn <player> <reason>
+ say:
+  description: Broadcasts a message to the whole server
+  usage: /say <message>
+# vanish:
+#  aliases: [v]
+#  description: Vanish command.
+#  usage: /vanish
+ clearchat:
+  aliases: [cc]
+  description: Clears the global chat
+  usage: /clearchat [message]
+ tutorial:
+  description: Basic tutorials
+  usage: /tutorial [page]
+ globalmute:
+  aliases: [gmute]
+  description: Toggle global mute
+  usage: /globalmute
+ buildmything:
+  aliases: [bmt]
+  description: Build My Thing minigame command
+  usage: /buildmything <option>
+ info:
+  description: User information tool
+  usage: /info <player>
+ chat:
+  aliases: [c, sc, channel]
+  description: Main channel command
+  usage: /chat <chat>
+ freeze:
+  description: Freeze people. Enough said.
+  usage: /freeze <player>

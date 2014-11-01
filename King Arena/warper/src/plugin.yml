@@ -1,0 +1,11 @@
+main: me.thenameman.compasswarp.CompassWarp
+name: CompassWarp
+author: TheNameMan
+version: 1.0.0
+description: Warp around King Arena, in style.
+permissions:
+ warper.use:
+  description: Use the magical warper compass "clock".
+commands:
+ warper:
+  description: Opens the Compass Warper GUI.
