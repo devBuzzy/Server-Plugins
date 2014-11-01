@@ -5,7 +5,7 @@ FAQ
 ----
 
 1. You stole the plugin! Theif!
-A: No, I did not. I made the plugin. You can even ask CommonSense_64. The source code in here is entirely my code I have made for the ZeroCraft server, which I now avoid all I can. Basically, for me, this is a "**** you, Zero".
+A: No, I did not. I made the plugin. You can even ask CommonSense_64. The source code in here is entirely my code I have made for the ZeroCraft server. Basically, for me, this is a "**** you, Zero".
 
 2. Why did you do this?
 A: http://puu.sh/cyoIU.png - key in point these lines.
